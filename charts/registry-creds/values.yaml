@@ -1,0 +1,49 @@
+# image is the image used to manage registry creds
+image:
+  # repository is the path to the reposity from whic hthe image should be pulled
+  repository: mhill4holoplot/registry-creds
+  # tag is the version of the image that should be pulle from the repository
+  tag: 1.11
+  # pullPolicy dictates when an image is pulled when a pod is creaded, it may be Always, Never, or IfNotPresent
+  pullPolicy: IfNotPresent
+
+## dpr is configuration for a docker private registry server
+#dpr:
+#  # sever is the URL to the DPR server
+#  server: foo
+#  # user is the user used to pull from the DPR server
+#  user: bar
+#  # password is the password for the DPR server user
+#  password: foo
+#
+## ecr is configuration for using AWS Elastic Container Registry
+#ecr:
+#  # accessKeyID is the AWS access key ID for the IAM user to be used to pull images
+#  accessKeyID: foo
+#  # secretAccessKey is the secret matching the acccess key Id
+#  secretAccessKey: bar
+#  # sessionToken is an additional secret that may be reuired to authenticate to AWS
+#  sessionToken: foo
+#  # account is a numercial string refereing the to the AWS account in which the target ECR repository resides
+#  account: bar
+#  # region is the AWS region from which you wish to pull images from
+#  region: foo
+#  # assumeRole is an optional role to be assumed in order to generate an ECR access token
+#  assumeRole: bar
+#
+## gcr is configuration for the Google Cotainer Registry
+#gcr:
+#  # applicationDefaultCredentials the credentials used to authenticate to Google Cloud Platform
+#  applicationDefaultCredentials: foo
+#  # url the URL use to connect to GCR
+#  url: bar
+#
+## acr configuraiton for pulling images from Azure Container Registry
+#acr:
+#  # url the url to authenticate to
+#  url: foo
+#  # clientID the Azure client ID used to pull images
+#  clientID: bar
+#  # password the password for the azure client
+#  password: foo
+#
