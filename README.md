@@ -144,7 +144,7 @@ The value for `application_default_credentials.json` can be obtained with the fo
 
 ## DockerHub Image
 
-- [upmcenterprises/registry-creds](https://hub.docker.com/r/upmcenterprises/registry-creds/)
+- [holoplot/registry-creds](https://hub.docker.com/r/holoplot/registry-creds/)
 
 ## Developing Locally
 
@@ -157,4 +157,7 @@ If you want to hack on this project:
 
 ## About
 
-Built by UPMC Enterprises in Pittsburgh, PA. http://enterprises.upmc.com/
+Maintained by Holoplot https://holoplot.com
+
+Folked from https://github.com/upmc-enterprises/registry-creds
+Originally built by UPMC Enterprises in Pittsburgh, PA. http://enterprises.upmc.com/
